@@ -1,0 +1,212 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="14460.31" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="8ri-HC-NO3">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="14460.20"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--ATM Consultoria-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ATM_Consultoria" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="32" translatesAutoresizingMaskIntoConstraints="NO" id="Tm0-WB-klU">
+                                <rect key="frame" x="54.5" y="144.5" width="266" height="378"/>
+                                <subviews>
+                                    <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logo.png" highlightedImage="logo.png" translatesAutoresizingMaskIntoConstraints="NO" id="gb9-mu-e79">
+                                        <rect key="frame" x="0.0" y="0.0" width="266" height="96"/>
+                                    </imageView>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" distribution="fillEqually" alignment="center" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="NIV-6L-PgG">
+                                        <rect key="frame" x="0.0" y="128" width="266" height="250"/>
+                                        <subviews>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="J2l-Np-Yra">
+                                                <rect key="frame" x="6" y="0.0" width="254" height="121"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="Kl4-6H-DS3">
+                                                        <rect key="frame" x="0.0" y="0.0" width="115" height="121"/>
+                                                        <state key="normal" image="menu_cliente.png"/>
+                                                        <connections>
+                                                            <segue destination="rk4-9a-7YU" kind="show" id="Xfb-D6-gJz"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="L74-OI-U3C">
+                                                        <rect key="frame" x="139" y="0.0" width="115" height="121"/>
+                                                        <state key="normal" image="menu_contato.png"/>
+                                                        <connections>
+                                                            <segue destination="dLe-NR-JEZ" kind="show" id="1Xh-C8-ArL"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                            <stackView opaque="NO" contentMode="scaleToFill" spacing="24" translatesAutoresizingMaskIntoConstraints="NO" id="ktN-5u-SMs">
+                                                <rect key="frame" x="6" y="129" width="254" height="121"/>
+                                                <subviews>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5Yu-LM-mXX">
+                                                        <rect key="frame" x="0.0" y="0.0" width="115" height="121"/>
+                                                        <state key="normal" image="menu_empresa.png"/>
+                                                        <connections>
+                                                            <segue destination="ndd-ch-hM8" kind="show" id="ylQ-OH-r6a"/>
+                                                        </connections>
+                                                    </button>
+                                                    <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="def-7a-9lN">
+                                                        <rect key="frame" x="139" y="0.0" width="115" height="121"/>
+                                                        <state key="normal" image="menu_servico.png"/>
+                                                        <connections>
+                                                            <segue destination="pbQ-PI-uD2" kind="show" id="MOX-PS-v1w"/>
+                                                        </connections>
+                                                    </button>
+                                                </subviews>
+                                            </stackView>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                            </stackView>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstItem="Tm0-WB-klU" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="hb6-uC-CIj"/>
+                            <constraint firstItem="Tm0-WB-klU" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="pSJ-Y0-2lT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="ATM Consultoria" id="YgE-uy-OWY"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1072.8" y="133.5832083958021"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="JYc-kQ-MLf">
+            <objects>
+                <viewController id="dLe-NR-JEZ" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="gd4-Js-RJ8">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_contato.png" translatesAutoresizingMaskIntoConstraints="NO" id="71Y-kO-G1I">
+                                <rect key="frame" x="131.5" y="274.5" width="112" height="118"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="71Y-kO-G1I" firstAttribute="centerY" secondItem="gd4-Js-RJ8" secondAttribute="centerY" id="caS-Qh-1cZ"/>
+                            <constraint firstItem="71Y-kO-G1I" firstAttribute="centerX" secondItem="gd4-Js-RJ8" secondAttribute="centerX" id="y0Z-aK-Vfd"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="yn6-FY-DTe"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lSw-GG-VEo" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2047" y="134"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="dJQ-Ig-KWF">
+            <objects>
+                <viewController id="ndd-ch-hM8" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="yZP-zU-c4E">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_empresa.png" translatesAutoresizingMaskIntoConstraints="NO" id="Ep4-eE-AJs">
+                                <rect key="frame" x="145" y="294" width="85" height="79"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="Ep4-eE-AJs" firstAttribute="centerY" secondItem="yZP-zU-c4E" secondAttribute="centerY" id="9rW-Xl-E6E"/>
+                            <constraint firstItem="Ep4-eE-AJs" firstAttribute="centerX" secondItem="yZP-zU-c4E" secondAttribute="centerX" id="YKm-9P-boS"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Msw-OR-Tpo"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="zSG-9y-Frb" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1073" y="824"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="U31-fy-mRm">
+            <objects>
+                <viewController id="pbQ-PI-uD2" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="Djg-iU-u9m">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_servico.png" translatesAutoresizingMaskIntoConstraints="NO" id="pwR-iH-rPp">
+                                <rect key="frame" x="145" y="294" width="85" height="79"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="pwR-iH-rPp" firstAttribute="centerY" secondItem="Djg-iU-u9m" secondAttribute="centerY" id="4pE-o5-m7j"/>
+                            <constraint firstItem="pwR-iH-rPp" firstAttribute="centerX" secondItem="Djg-iU-u9m" secondAttribute="centerX" id="RNO-E4-YXT"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="meF-Z2-aed"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="o8l-ZQ-04d" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="2047" y="824"/>
+        </scene>
+        <!--View Controller-->
+        <scene sceneID="lpi-ez-Bfa">
+            <objects>
+                <viewController id="rk4-9a-7YU" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="22h-e6-dsw">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="detalhe_cliente.png" translatesAutoresizingMaskIntoConstraints="NO" id="6Wb-xe-XDU">
+                                <rect key="frame" x="145" y="288.5" width="85" height="90"/>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="6Wb-xe-XDU" firstAttribute="centerX" secondItem="22h-e6-dsw" secondAttribute="centerX" id="YDX-jx-uXm"/>
+                            <constraint firstItem="6Wb-xe-XDU" firstAttribute="centerY" secondItem="22h-e6-dsw" secondAttribute="centerY" id="pcT-E8-Ppu"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="Tyc-Vn-LBX"/>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="s3L-k0-5ux" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1072.8" y="-544.67766116941539"/>
+        </scene>
+        <!--Navigation Controller-->
+        <scene sceneID="6Y8-Q9-0Dc">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="8ri-HC-NO3" sceneMemberID="viewController">
+                    <toolbarItems/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="elz-LF-yM3">
+                        <rect key="frame" x="0.0" y="20" width="375" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Xkb-FB-PBp"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="P7F-Wq-5o6" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="133.59999999999999" y="133.5832083958021"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="detalhe_cliente.png" width="85" height="90"/>
+        <image name="detalhe_contato.png" width="112" height="118"/>
+        <image name="detalhe_empresa.png" width="85" height="79"/>
+        <image name="detalhe_servico.png" width="85" height="79"/>
+        <image name="logo.png" width="266" height="96"/>
+        <image name="menu_cliente.png" width="115" height="121"/>
+        <image name="menu_contato.png" width="115" height="121"/>
+        <image name="menu_empresa.png" width="115" height="121"/>
+        <image name="menu_servico.png" width="115" height="121"/>
+    </resources>
+</document>
