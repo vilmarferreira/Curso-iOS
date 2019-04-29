@@ -1,0 +1,373 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4BF69F5C2277630200AF343E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF69F5B2277630200AF343E /* AppDelegate.swift */; };
+		4BF69F5E2277630200AF343E /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BF69F5D2277630200AF343E /* ViewController.swift */; };
+		4BF69F612277630200AF343E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF69F5F2277630200AF343E /* Main.storyboard */; };
+		4BF69F632277630400AF343E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4BF69F622277630400AF343E /* Assets.xcassets */; };
+		4BF69F662277630400AF343E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4BF69F642277630400AF343E /* LaunchScreen.storyboard */; };
+		4BF69F74227765CA00AF343E /* gato.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF69F6E227765C900AF343E /* gato.mp3 */; };
+		4BF69F75227765CA00AF343E /* ovelha.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF69F6F227765C900AF343E /* ovelha.mp3 */; };
+		4BF69F76227765CA00AF343E /* macaco.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF69F70227765C900AF343E /* macaco.mp3 */; };
+		4BF69F77227765CA00AF343E /* cao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF69F71227765C900AF343E /* cao.mp3 */; };
+		4BF69F78227765CA00AF343E /* leao.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF69F72227765C900AF343E /* leao.mp3 */; };
+		4BF69F79227765CA00AF343E /* vaca.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 4BF69F73227765C900AF343E /* vaca.mp3 */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		4BF69F582277630200AF343E /* sons de animais.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sons de animais.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4BF69F5B2277630200AF343E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4BF69F5D2277630200AF343E /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		4BF69F602277630200AF343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4BF69F622277630400AF343E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4BF69F652277630400AF343E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4BF69F672277630400AF343E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BF69F6E227765C900AF343E /* gato.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = gato.mp3; sourceTree = "<group>"; };
+		4BF69F6F227765C900AF343E /* ovelha.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = ovelha.mp3; sourceTree = "<group>"; };
+		4BF69F70227765C900AF343E /* macaco.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = macaco.mp3; sourceTree = "<group>"; };
+		4BF69F71227765C900AF343E /* cao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = cao.mp3; sourceTree = "<group>"; };
+		4BF69F72227765C900AF343E /* leao.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = leao.mp3; sourceTree = "<group>"; };
+		4BF69F73227765C900AF343E /* vaca.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; path = vaca.mp3; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4BF69F552277630200AF343E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4BF69F4F2277630200AF343E = {
+			isa = PBXGroup;
+			children = (
+				4BF69F5A2277630200AF343E /* sons de animais */,
+				4BF69F592277630200AF343E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4BF69F592277630200AF343E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4BF69F582277630200AF343E /* sons de animais.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4BF69F5A2277630200AF343E /* sons de animais */ = {
+			isa = PBXGroup;
+			children = (
+				4BF69F6D227765C900AF343E /* sons */,
+				4BF69F5B2277630200AF343E /* AppDelegate.swift */,
+				4BF69F5D2277630200AF343E /* ViewController.swift */,
+				4BF69F5F2277630200AF343E /* Main.storyboard */,
+				4BF69F622277630400AF343E /* Assets.xcassets */,
+				4BF69F642277630400AF343E /* LaunchScreen.storyboard */,
+				4BF69F672277630400AF343E /* Info.plist */,
+			);
+			path = "sons de animais";
+			sourceTree = "<group>";
+		};
+		4BF69F6D227765C900AF343E /* sons */ = {
+			isa = PBXGroup;
+			children = (
+				4BF69F6E227765C900AF343E /* gato.mp3 */,
+				4BF69F6F227765C900AF343E /* ovelha.mp3 */,
+				4BF69F70227765C900AF343E /* macaco.mp3 */,
+				4BF69F71227765C900AF343E /* cao.mp3 */,
+				4BF69F72227765C900AF343E /* leao.mp3 */,
+				4BF69F73227765C900AF343E /* vaca.mp3 */,
+			);
+			path = sons;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4BF69F572277630200AF343E /* sons de animais */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4BF69F6A2277630400AF343E /* Build configuration list for PBXNativeTarget "sons de animais" */;
+			buildPhases = (
+				4BF69F542277630200AF343E /* Sources */,
+				4BF69F552277630200AF343E /* Frameworks */,
+				4BF69F562277630200AF343E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "sons de animais";
+			productName = "sons de animais";
+			productReference = 4BF69F582277630200AF343E /* sons de animais.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4BF69F502277630200AF343E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = "Vilmar Ferreira Gomes";
+				TargetAttributes = {
+					4BF69F572277630200AF343E = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+				};
+			};
+			buildConfigurationList = 4BF69F532277630200AF343E /* Build configuration list for PBXProject "sons de animais" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4BF69F4F2277630200AF343E;
+			productRefGroup = 4BF69F592277630200AF343E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4BF69F572277630200AF343E /* sons de animais */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4BF69F562277630200AF343E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF69F662277630400AF343E /* LaunchScreen.storyboard in Resources */,
+				4BF69F74227765CA00AF343E /* gato.mp3 in Resources */,
+				4BF69F79227765CA00AF343E /* vaca.mp3 in Resources */,
+				4BF69F77227765CA00AF343E /* cao.mp3 in Resources */,
+				4BF69F75227765CA00AF343E /* ovelha.mp3 in Resources */,
+				4BF69F632277630400AF343E /* Assets.xcassets in Resources */,
+				4BF69F76227765CA00AF343E /* macaco.mp3 in Resources */,
+				4BF69F612277630200AF343E /* Main.storyboard in Resources */,
+				4BF69F78227765CA00AF343E /* leao.mp3 in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4BF69F542277630200AF343E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4BF69F5E2277630200AF343E /* ViewController.swift in Sources */,
+				4BF69F5C2277630200AF343E /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		4BF69F5F2277630200AF343E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF69F602277630200AF343E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4BF69F642277630400AF343E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4BF69F652277630400AF343E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4BF69F682277630400AF343E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4BF69F692277630400AF343E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4BF69F6B2277630400AF343E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JNYD665BB;
+				INFOPLIST_FILE = "sons de animais/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ferreira.gomes.sons-de-animais";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4BF69F6C2277630400AF343E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 6JNYD665BB;
+				INFOPLIST_FILE = "sons de animais/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "ferreira.gomes.sons-de-animais";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4BF69F532277630200AF343E /* Build configuration list for PBXProject "sons de animais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF69F682277630400AF343E /* Debug */,
+				4BF69F692277630400AF343E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4BF69F6A2277630400AF343E /* Build configuration list for PBXNativeTarget "sons de animais" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4BF69F6B2277630400AF343E /* Debug */,
+				4BF69F6C2277630400AF343E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4BF69F502277630200AF343E /* Project object */;
+}

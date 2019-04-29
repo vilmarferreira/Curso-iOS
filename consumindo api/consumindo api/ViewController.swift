@@ -10,9 +10,30 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    @IBOutlet weak var labelPreco: UILabel!
+    
+    @IBOutlet weak var btnAtualizar: UIButton!
+    @IBAction func atualizarPreco(_ sender: Any) {
+        self.recuperarPrecoBitCoin()
+    }
     override func viewDidLoad() {
         super.viewDidLoad()
+        self.recuperarPrecoBitCoin()
         
+    }
+    func formatarPreco(preco: NSNumber) -> String{
+        let nf = NumberFormatter()
+        nf.numberStyle = .decimal
+        nf.locale = Locale(identifier: "pt_BR")
+        if let precoFinal = nf.string(from: preco){
+            return precoFinal
+        }else{
+            return "0,00"
+        }
+        
+    }
+    func recuperarPrecoBitCoin(){
+        self.btnAtualizar.setTitle("Atualizando...", for: .normal)
         if let url = URL(string: "https://blockchain.info/ticker"){
             let tarefa = URLSession.shared.dataTask(with: url){(dados, requisicao, erro)
                 in
@@ -20,22 +41,24 @@ class ViewController: UIViewController {
                     if let dadoRetorno = dados {
                         
                         do {
-                            let objetoJson = try  JSONSerialization.jsonObject(with: dadoRetorno, options: []) as? [String: Any]
-                            
-                            if let brl = objetoJson?["BRL"] as? [String: Any]{
-                                print(brl)
-                                if let preco = brl["buy"] as? Float{
-                                    print(preco)
+                            if let objetoJson = try  JSONSerialization.jsonObject(with: dadoRetorno, options: []) as? [String: Any]{
+                                
+                                if let brl = objetoJson["BRL"] as? [String: Any]{
+                                    
+                                    if let preco = brl["buy"] as? Double{
+                                        let precoFormatado = self.formatarPreco(preco: NSNumber(value:preco))
+                                        
+                                        DispatchQueue.main.async(execute: {
+                                            self.labelPreco.text = "R$ "+precoFormatado
+                                            self.btnAtualizar.setTitle("Atualizar", for: .normal)
+                                        })
+                                        
+                                    }
                                 }
                             }
-                            
                         } catch  {
                         }
-                        
-                        
-                        
                     }
-                    
                 }else{
                     print("Erro")
                 }
