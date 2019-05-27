@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>CLIENT_ID</key>
+	<string>87290881313-lvia8dmh3m13kic4jc5jnso6ppld0m2m.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.87290881313-lvia8dmh3m13kic4jc5jnso6ppld0m2m</string>
+	<key>API_KEY</key>
+	<string>AIzaSyCqtqr2ERohUzzFAkowiIGVIfwpCjK5FJI</string>
+	<key>GCM_SENDER_ID</key>
+	<string>87290881313</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>ferreira.gomes.firebaseConfiguracao</string>
+	<key>PROJECT_ID</key>
+	<string>fir-config-f0537</string>
+	<key>STORAGE_BUCKET</key>
+	<string>fir-config-f0537.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false></false>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false></false>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true></true>
+	<key>IS_GCM_ENABLED</key>
+	<true></true>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true></true>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:87290881313:ios:a53680f20004620d</string>
+	<key>DATABASE_URL</key>
+	<string>https://fir-config-f0537.firebaseio.com</string>
+</dict>
+</plist>
