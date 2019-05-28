@@ -27,9 +27,10 @@ class FotoViewController: UIViewController, UIImagePickerControllerDelegate, UIN
             
             
             if let imagemDados = imagemSelecionada.jpegData(compressionQuality: 0.5){
-                imagens.child("\(self.idImagem).jpg").putData(imagemDados, metadata:nil) { (metaDados, error) in
+                imagens.child("\(self.idImagem).jpg").putData(imagemDados, metadata: nil, completion: { (metaDados, error) in
                     if error != nil{
-                        print("OK")
+                        let url = metaDados?.dictionaryRepresentation()["mediaLink"] as! String
+                        self.performSegue(withIdentifier: "selecionarUsuarioSegue", sender: url)
                         self.btnProximo.isEnabled = true
                         self.btnProximo.setTitle("Próximo...", for: .normal)
                     }else{
@@ -38,9 +39,20 @@ class FotoViewController: UIViewController, UIImagePickerControllerDelegate, UIN
                     }
                 }
                 
-            }
+            )}
         }
         
+    }
+    
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+        if segue.identifier == "selecionarUsuarioSegue"{
+            let usuarioViewController = segue.destination as! UsersTableViewController
+            usuarioViewController.descricao = self.descricao.text!
+            usuarioViewController.urlImagem = sender as! String
+            usuarioViewController.idImagem = self.idImagem
+            
+            
+        }
     }
     
     
